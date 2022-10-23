@@ -1,0 +1,97 @@
+/******BODY************/
+body { /*corps de page*/
+    background-color: rgb(255, 255, 255);
+    font-family: "Oswal";
+    font-size: 20px;
+    margin: 0px;
+} 
+
+/***********main**************/
+/*****header***/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(5, 201, 255);
+}
+
+h1{
+    margin: 0px; 
+    display: flex;
+    justify-content: center;}
+
+.img-header{
+    width: 2%;
+    display: flex;
+}
+/************/
+
+/*****section titre*******/
+.sous-titre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section h2{
+    display: flex;
+}
+/************/
+
+/*****div titre*******/
+main div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-présentation{
+    display: flex;
+}
+
+.img{
+    width: 40%;}
+/************/
+
+
+/******************p**************/
+p{
+    margin-right: 70px;
+    margin-left: 70px;
+    text-align: center;
+    background-color: rgb(255, 253, 253); 
+    color: rgb(24, 4, 239);
+    font-size: 20px;
+}
+/*************************************/
+/*********** fin main**************/
+
+/*****************footer**************/
+footer{
+    background-color: rgb(5, 201, 255);
+    font-family: 'Anton', sans-serif;
+}
+
+.footer-titre { 
+    display: flex;
+    justify-content: center;
+}
+
+.ul-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*****************************************/
+
+/*ci si l'écran fait moins de 480 pixel donc un téléphone*/
+@media all and (max-device-width: 480px) {
+p{
+    font-size: medium;
+}
+.ul-footer{
+    display: flex;
+    flex-direction: column;
+}
+}
